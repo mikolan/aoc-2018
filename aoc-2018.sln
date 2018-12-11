@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aoc-2018", "aoc-2018\aoc-2018.csproj", "{C6805CF9-CFA1-43EC-9B9C-6FC7431BFB7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aoc-2018", "aoc-2018\aoc-2018.csproj", "{C6805CF9-CFA1-43EC-9B9C-6FC7431BFB7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aoc-2018-tests", "aoc-2018-tests\aoc-2018-tests.csproj", "{A39619E3-4DF7-4748-887D-EF562CCB9266}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C6805CF9-CFA1-43EC-9B9C-6FC7431BFB7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6805CF9-CFA1-43EC-9B9C-6FC7431BFB7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6805CF9-CFA1-43EC-9B9C-6FC7431BFB7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A39619E3-4DF7-4748-887D-EF562CCB9266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A39619E3-4DF7-4748-887D-EF562CCB9266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A39619E3-4DF7-4748-887D-EF562CCB9266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A39619E3-4DF7-4748-887D-EF562CCB9266}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
