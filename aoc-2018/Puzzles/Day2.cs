@@ -40,19 +40,34 @@ namespace aoc_2018.Puzzles
 
         public string GetPart2Answer(string input)
         {
-            string[] boxes = input.Split('\n');
+            string[] boxes = input.Split('\n').Select(s => s.Trim()).ToArray();
 
             for(int i = 0; i < boxes.Length - 1; i++)
             {
                 for(int j = i + 1; j < boxes.Length; j++)
                 {
-                    var diff = boxes[i].Intersect(boxes[j]);
+                    var diff = Intersect(boxes[i], boxes[j]);
                     if (diff.Count() == boxes[i].Length - 1)
                         return string.Concat(diff);
                 }
             }
 
             return "";
+        }
+
+        private string Intersect(string first, string second)
+        {
+            var sb = new StringBuilder();
+
+            for (int i = 0; i < first.Length; i++)
+            {
+                if (first[i] == second[i])
+                {
+                    sb.Append(first[i]);
+                }
+            }
+
+            return sb.ToString();
         }
     }
 }
